@@ -1,0 +1,13 @@
+:root {
+  :root {
+    --color-verde-oscuro: #52662b;
+    --color-verde-musgo: #929747;
+    --color-verde-transparencia-1: #8d9f6f;
+    --color-verde-transparencia-2: #b2bd9f;
+    --color-verde-transparencia-3: #ebeee3;
+    --color-gris: #f4f4f4;
+    --color-cafe: #9e662a;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-quicksand: "Quicksand", sans-serif;
+  }
+}

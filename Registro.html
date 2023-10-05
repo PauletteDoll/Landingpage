@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style-registro.css" />
+    <script src="script-registro.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="contenedor-nav">
+          <!-- Se agregó un contenedor para el logo con la clase 'logo-avida' -->
+          <div class="logo-avida">
+            <a href="Fotos y videos/logo.svg" class="logo"></a>
+          </div>
+          <div class="lista-nav">
+            <ul>
+              <li><a href="#">Tienda</a></li>
+              <li><a href="#">Enciclopedia</a></li>
+              <li><a href="#">Ingresar</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-principal formulario-container">
+      <div class="container-imagen">
+        <!-- Cambiado el atributo 'class' a 'imagen-contacto' para que coincida con el estilo CSS -->
+        <img
+          src="Fotos y videos/pajaro-azul.jpg"
+          class="imagen-contacto"
+          alt="Imagen de contacto"
+        />
+      </div>
+      <div class="container-formulario">
+        <form
+          action="registrar.php"
+          method="post"
+          enctype="multipart/form-data"
+          class="formulario"
+        >
+          <!--           <h1>Regístrate y participa en nuestra comunidad</h1> -->
+          <div class="texto">
+            <h2>Regístrate y únete a nuestra comunidad</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="nombre" class="label-inline">Nombre</label>
+              <input type="text" name="nombre" placeholder="Tu nombre" />
+            </div>
+            <div class="col-md-6">
+              <label for="apellido" class="label-inline">Apellido</label>
+              <input type="text" name="apellido" placeholder="Tu apellido" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="email" class="label-inline">Correo electrónico</label>
+              <input
+                type="email"
+                name="correo"
+                placeholder="Correo electrónico"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="password" class="label-inline">Contraseña</label>
+              <input
+                type="password"
+                name="contraseña"
+                placeholder="Contraseña"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="fecha_nacimiento" class="label-inline"
+                >Fecha de nacimiento</label
+              >
+              <input
+                type="date"
+                name="fecha_nacimiento"
+                placeholder="Fecha de nacimiento"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="nombre_usuario" class="label-inline"
+                >Nombre de usuario</label
+              >
+              <input
+                type="text"
+                name="nombre_usuario"
+                placeholder="Nombre de usuario"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <label for="biografia" class="label-inline">Biografía</label>
+              <div class="textarea-container">
+                <textarea
+                  name="biografia"
+                  placeholder="Cuéntanos sobre ti"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="boton">
+            <input type="submit" value="Registrarse" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="espacio-footer"></div>
+    <footer class="mi-footer">
+      <!-- Cambiado el nombre de la clase a 'footer-columna' para que coincida con el estilo CSS -->
+      <div class="footer-columna">
+        <img
+          src="Fotos y videos/logo.svg"
+          alt="Descripción del SVG"
+          class="avida-logo"
+        />
+      </div>
+      <div class="footer-columna">
+        <ul>
+          <li>Información de contacto</li>
+          <li>Páginas relacionadas</li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <ul>
+          <li>Políticas de privacidad y términos de uso</li>
+          <li>Suscripción Premium</li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <ul>
+          <li>¡Coopera con nosotros!</li>
+          <li>Preguntas frecuentes (FAQ)</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

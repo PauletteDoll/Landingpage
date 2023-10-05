@@ -1,0 +1,352 @@
+:root {
+  --color-verde-oscuro: #52662b;
+  --color-verde-musgo: #929747;
+  --color-verde-transparencia-1: #8d9f6f;
+  --color-verde-transparencia-2: #b2bd9f;
+  --color-verde-transparencia-3: #ebeee3;
+  --color-gris: #f4f4f4;
+  --color-cafe: #9e662a;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-quicksand: "Quicksand", sans-serif; /* Asegúrate de definir la fuente aquí */
+}
+
+h1 {
+  font-family: var(--font-quicksand);
+}
+
+h2,
+h3,
+p,
+a,
+li,
+label {
+  font-family: var(--font-quicksand);
+  color: var(--color-gris);
+  text-shadow: 2px 1px 2px rgba(82, 102, 43, 0.91);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: var(--font-montserrat, sans-serif);
+  min-height: 100%;
+  background: #b2bd9f;
+  background: linear-gradient(to right, #b2bd9f, #ebeee3);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: --font-montserrat;
+  font-size: 16px;
+}
+
+nav {
+  padding: auto;
+  background-color: var(--color-verde-musgo);
+  display: flex;
+  justify-content: flex-end; /* Alinea al lado derecho */
+  text-align: end;
+}
+
+nav ul {
+  padding: 0 35px;
+  list-style: none; /* Quita la decoración de la lista */
+  color: var(--color-gris);
+}
+
+nav li {
+  display: inline-block; /* Coloca los elementos de la lista en línea */
+  margin-left: 20px; /* Ajusta el espacio entre elementos si es necesario */
+  margin: 0 15px;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--color-gris);
+  font-size: 20px;
+}
+
+.texto {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  margin-top: 0;
+}
+.container {
+  margin: 50% 50%;
+  background-color: var(--color-verde-transparencia-2);
+  padding: 30px;
+  display: flex;
+}
+
+.container-principal {
+  width: 100%;
+}
+
+.container-imagen {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Cambia la dirección del contenedor a columna */
+  align-items: start; /* Alinea los elementos en el centro horizontalmente */
+  padding: 5px;
+  margin: 10px;
+  gap: 30px;
+}
+
+.label-inline {
+  display: inline-block;
+  margin-bottom: 5px; /* Ajusta el espacio entre el label y el input */
+}
+
+.textarea-container {
+  width: 100%;
+}
+
+.textarea-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 100px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Asegura que el ancho incluya padding y border */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px; /* Ajusta este valor según lo redondeado que quieras que sea */
+}
+
+.container-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-imagen {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.container {
+  margin: 50% 50%;
+  background-color: var(--color-verde-transparencia-2);
+  padding: 30px;
+  display: flex;
+}
+
+body,
+html {
+  height: 100%; /* Añadido para asegurar que el body y el html ocupen el 100% de la altura */
+}
+
+.container-principal {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.formulario-container {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  margin-bottom: 300px;
+}
+
+/* Ajusta el margen superior según sea necesario */
+
+.container-imagen {
+  display: flex;
+  justify-content: center;
+  position: absolute; /* Cambia a position: relative */
+  z-index: -1;
+  margin-top: 200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Cambia la dirección del contenedor a columna */
+  align-items: start; /* Alinea los elementos en el centro horizontalmente */
+  padding: 5px;
+  margin: 10px;
+  gap: 30px;
+}
+
+.label-inline {
+  display: inline-block;
+  margin-bottom: 5px; /* Ajusta el espacio entre el label y el input */
+}
+
+.textarea-container {
+  width: 100%;
+}
+
+.textarea-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 100px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px; /* Ajusta este valor según lo redondeado que quieras que sea */
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: var(--color-verde-musgo);
+  color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid var(--color-verde-musgo);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--color-verde-oscuro);
+}
+
+.avida-logo {
+  width: 130px;
+  height: auto;
+  padding: 20px;
+}
+
+.label-inline {
+  display: inline-block;
+}
+
+.imagen-contacto {
+  width: 100%; /* Puedes ajustar este valor según tu preferencia */
+  height: auto; /* Esto mantiene la proporción original de la imagen */
+  object-fit: cover;
+  filter: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+
+.container-formulario {
+  width: 80%; /* Puedes ajustar este valor según tus necesidades */
+  padding: 0 50px 50px 50px;
+  background-color: var(--color-verde-transparencia-2);
+  z-index: 1;
+  border-radius: 25px;
+  margin-top: 50%;
+  height: fit-content;
+}
+
+/* Puedes ajustar el margen superior si es necesario */
+.formulario {
+  margin-top: 20px;
+}
+.row {
+  margin-bottom: 10px;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: var(--color-verde-musgo);
+  color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid var(--color-verde-musgo);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--color-verde-oscuro);
+}
+
+footer {
+  background-color: var(--color-verde-oscuro);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  z-index: 2;
+}
+
+footer a {
+  color: var(--color-gris);
+}
+
+footer li {
+  color: var(--color-gris);
+  text-decoration: none;
+  padding: 3px;
+  margin-top: 5px;
+  list-style: none; /* Quita la decoración de la lista */
+}
+
+.avida-logo {
+  width: 130px;
+  height: auto;
+  padding: 20px;
+}
+
+.label-inline {
+  display: inline-block;
+}
+.boton {
+  width: auto;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link
+      rel="shortcut icon"
+      href="Fotos y videos/logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="Normalize.css" />
+    <script src="Script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>ÁVIDA</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="contenedor-nav">
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">¿Quiénes somos?</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Proyectos futuros</a></li>
+            <li><a href="">Enciclopedia</a></li>
+            <li><a href="">Tienda</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Tienda</a></li>
+            <li><a href="">Ingresar</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contenedor">
+      <h3 class="centrar-texto">Contacto</h3>
+      <div class="contacto-bg"></div>
+
+      <form class="formulario">
+        <div class="campo">
+          <label class="campo__label" for="nombre">Nombre</label>
+          <input type="text" placeholder="Tu nombre" id="nombre" />
+        </div>
+        <div class="campo">
+          <label class="campo__label" for="email">E-mail</label>
+          <input type="email" placeholder="Tu email" id="email" />
+        </div>
+        <div class="campo">
+          <label class="campo__label" for="mensaje">Mensaje</label>
+          <textarea
+            class="campo__field campo__field--textarea"
+            id="mensaje"
+          ></textarea>
+        </div>
+        <div class="campo">
+          <input type="submit" value="Enviar" class="boton boton--primario" />
+        </div>
+      </form>
+    </main>
+    <footer class="mi-footer">
+      <div class="footer-columna">
+        <img
+          src="Fotos y videos/logo.svg"
+          alt="Descripción del SVG"
+          class="avida-logo"
+        />
+      </div>
+      <div class="footer-columna">
+        <ul>
+          <li>Información de contacto</li>
+          <li>Páginas relacionadas</li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <ul>
+          <li>Políticas de privacidad y términos de uso</li>
+          <li>Suscripción Premium</li>
+        </ul>
+      </div>
+      <div class="footer-columna">
+        <ul>
+          <li>¡Coopera con nosotros!</li>
+          <li>Preguntas frecuentes (FAQ)</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
